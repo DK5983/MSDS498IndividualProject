@@ -1,0 +1,4 @@
+#command prompt location should be in folder that holds S3 downloaded .txt files
+#named the new file joinedFile.txt but can be named whatever you want
+
+Get-Content *.txt | Set-Content joinedFile.txt

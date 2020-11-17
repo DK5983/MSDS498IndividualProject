@@ -1,0 +1,4 @@
+#Promt should be in folder where combined file is located.
+# The new file can be sorted in a number of ways.  This code sorts by the first column in ascending order
+
+Get-Content .\joinedFile.txt | Sort-Object { [double]$_.split()[-0] } 

@@ -104,6 +104,6 @@ To create the cluster:
    * In the **Security and Access** section
      * **EC2 key pair:** Select the key pair you created from the drop-down menu
      * **Permissions:** Keep as default
-    * Click the `Create cluster` button
+  * Click the `Create cluster` button
     
   

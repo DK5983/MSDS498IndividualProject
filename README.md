@@ -74,7 +74,7 @@ The final bucket you create should be named in a way that it identifies you will
 Unlike the previous two buckets, this bucket will not intitally have any files in it.
 
 ## Configuring the Cluster
-### Part 1: Create Key Value Pair
+### Part 1: Create Key Pair
 In order to authenticate to Amazon EMR cluster you will need specify the "Amazon EC2 key pair that will be used for SSH connections to all cluster instances" (***https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-access-ssh.html***).  This is a very easy process. <br /><br />
 To create a key pair:
 * From your AWS Management Console select `EC2` from the services. 

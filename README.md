@@ -6,9 +6,8 @@ In the sixteenth chapter of the textbook *Python for Programmers*, the authors w
 *This repository contains the source code and information pertaining to the project which was initially downloaded from the **Python for Programmers** text*
 
 ## Uploading files into GitHub and AWS S3
-
 ### Romeo and Juliet Text
-The Romeo and Juliet text can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513** <br /><br />
+The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513** <br />
 #### Uploading to GitHub
 Once on your local computer, I just had to select `Add file` and then `Upload file` within this repository to add the .txt to it.
 #### Uploading to S3

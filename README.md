@@ -61,7 +61,7 @@ After the bucket is created complete the following:
 * Click the `Upload` tab at the bottom of the page
 
 ### Uploading Mapper and Reducer Python Files into S3 Bucket
-The second bucket you create should be named in a way that it identifies you will have the mapper and reducer python files in it. ***mine was named `mapperreducer code`*** <br /><br />
+The second bucket you create should be named in a way that it identifies you will have the mapper and reducer python files in it. ***mine was named `mapperreducercode`*** <br /><br />
 After the bucket is created complete the following:
 * Select the bucket you are using for the python files
 * In the bucket click on the `Upload` tab

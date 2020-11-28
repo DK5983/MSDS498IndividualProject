@@ -91,7 +91,7 @@ To create the cluster:
 * From your AWS Management Console select `EMR` from the services. 
 * In **EMR** click the `Create cluster` button
   * In the **General Configuration** section
-   * **Cluster Name:** Give your cluster a name that is easy for you to identify
+    * **Cluster Name:** Give your cluster a name that is easy for you to identify
     * **Logging:** Keep the logging box checked and the default S3 bucket as-is
     * **Launch Mode:** Keep default (you could add a step directly to the cluster by selecting `Step execution` but for this project, we will be doing the step after the cluster has been created 
   

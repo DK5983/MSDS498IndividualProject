@@ -68,4 +68,9 @@ After the bucket is created complete the following:
 * Click on the `Add Files` tab
 * Select both the `length_mapper.py` and `length_reducer.py` files from your computer
 * Click the `Upload` tab at the bottom of the page
-     
+
+### Setting Up the Output Bucket
+The final bucket you create should be named in a way that it identifies you will have the output files in it. ***mine was named `outputformapreduce`*** <br /><br />
+Unlike the previous two buckets, this bucket will not intitally have any files in it.
+
+

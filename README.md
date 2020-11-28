@@ -80,9 +80,19 @@ To create a key pair:
 * From your AWS Management Console select `EC2` from the services. 
 * In **EC2** select the item that says `Key pairs`
 * Click on the `Creat key pair` button
-  * **Name:** Give your key pair a name that is is for you to identify
+  * **Name:** Give your key pair a name that is easy for you to identify
   * **File format:** I selected pem to use with OpenSSH, but this is not mandatory for the project
   * **All other fields:** Keep default
   * Click the `Create key pair` button at the bottom of the page.
+  
+### Part 2: Create Cluster
+Now that your key value pair and buckets are all set up it is now time to create the cluster! <br /><br />
+To create the cluster:
+* From your AWS Management Console select `EMR` from the services. 
+* In **EMR** click the `Create cluster` button
+  * In the **General Configuration** section
+   * **Cluster Name:** Give your cluster a name that is easy for you to identify
+    * **Logging:** Keep the logging box checked and the default S3 bucket as-is
+    * **Launch Mode:** Keep default (you could add a step directly to the cluster by selecting `Step execution` but for this project, we will be doing the step after the cluster has been created 
   
   

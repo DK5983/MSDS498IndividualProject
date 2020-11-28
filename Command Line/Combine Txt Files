@@ -1,4 +1,4 @@
 #command prompt location should be in folder that holds S3 downloaded .txt files
-#named the new file joinedFile.txt but can be named whatever you want
+#named the new file sortedfile.txt but can be named whatever you want
 
-Get-Content *.txt | Set-Content joinedFile.txt
+Get-Content *.txt | Sort-Object {[double]$_.split()[-0]} | Set-Content sortedfile.txt

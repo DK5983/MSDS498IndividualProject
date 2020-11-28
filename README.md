@@ -13,7 +13,7 @@ In your GitHub repository, select `Add file` and then `Upload file` to add the .
 #### Uploading to S3
 For this project you will be creating three S3 buckets.  The first will hold the `RomeoAndJuliet.txt`.  
 ##### *Creating A Bucket*
-From your AWS Management Console select `S#` from the services. <br />
+From your AWS Management Console select `S3` from the services. <br /><br />
 In **S3** select the `Create Bucket` tab and do the following: <br />
 * **Name:** Give your bucket a unique name with lowercase letters and no spaces (you can use numbers)
 * **Region:** Select region that is closest to you

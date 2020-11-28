@@ -60,13 +60,12 @@ After the bucket is created complete the following:
 * Select the `RomeoAndJuliet.txt` file from your computer
 * Click the `Upload` tab at the bottom of the page
 
-
- 
-
-
-
-## Mapper Code
-The `mapper.py` code was sourced from Python for Programmers Chapter 16.5 (*citation below*).  This code asks the cluster to perform the mapping portion of the project by reading each line of text and for each word produce a key-value pair with the **word**, a **tab** and the number **1**.  
-
-## Reducer Code
-The `reducer.py` code was also sourced from the Python for Programmers text (*citation below*).  This code tasks the cluster with taking the mapped product (*above*) and counting the number of words of each length.  It should then produce new key-value pairs of the word legnth and the number of words in the text with that length.    
+### Uploading Mapper aand Reducer Python Files into S3 Bucket
+The second bucket you create should be named in a way that it identifies you will have the mapper and reducer python files in it. ***mine was named `mapperreducer code`*** <br /><br />
+After the bucket is created complete the following:
+* Select the bucket you are using for the python files
+* In the bucket click on the `Upload` tab
+* Click on the `Add Files` tab
+* Select both the `length_mapper.py` and `length_reducer.py` files from your computer
+* Click the `Upload` tab at the bottom of the page
+     

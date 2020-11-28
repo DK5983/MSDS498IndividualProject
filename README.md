@@ -5,9 +5,14 @@
 In the sixteenth chapter of the textbook *Python for Programmers*, the authors walk you through a number of exercises pertaining to Big Data utilizing Hadoop, Spark, NoSQL and IoT (**https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml**).  In section 16.5 the exercise was to configure and run a MapReduce Cluster in Azure that could identify the length of each word in a text and count how many words had each length.  For this project, I wanted to get the same end result, but use a different cloud-based platform.  I chose **Amazon Web Services (AWS)** for this project utilizing their **Elastic Map Reduce (EMR)** program.  This README will walk you through the entire process including introducing the architecture of the project, uploading the documents into *GitHub* and *AWS*, configuirng the EMR cluster, adding the Mapper/Reducer step to run the cluster and obtaining the readable output.  <br /><br />
 *This repository contains the source code and information pertaining to the project which was initially downloaded from the **Python for Programmers** text*
 
-## Romeo and Juliet Text
-Originally, the Romeo and Juliet text was downloaded from this website: **https://www.gutenberg.org/ebooks/1513** <br /><br />
-Since the text was uploaded to my local computer previously, I just had to select `Add file` and then `Upload file` within this repository to add the .txt to it.
+## Uploading files into GitHub and AWS S3
+
+### Romeo and Juliet Text
+The Romeo and Juliet text can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513** <br /><br />
+#### Uploading to GitHub
+Once on your local computer, I just had to select `Add file` and then `Upload file` within this repository to add the .txt to it.
+#### Uploading to S3
+
 
 ## Mapper Code
 The `mapper.py` code was sourced from Python for Programmers Chapter 16.5 (*citation below*).  This code asks the cluster to perform the mapping portion of the project by reading each line of text and for each word produce a key-value pair with the **word**, a **tab** and the number **1**.  

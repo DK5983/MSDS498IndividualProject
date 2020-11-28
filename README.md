@@ -52,8 +52,16 @@ To create an AWS S3 bucket complete the following:
   * **All other fields:** Keep default
   * Select the `Create Bucket` tab at the bottom of the page.
 
+### Uploading RomeoAndJuliet.txt into S3 Bucket
+The first bucket you create should be named in a way that it identifies you will have .txt files in it. ***mine was named `textfilesjp`*** <br />
+After the bucket is created complete the following:
+* Select the bucket you are using for the .txt file
+* In the bucket click on the `Upload` tab
+* Click on the `Add Files` tab
+* Select the `RomeoAndJuliet.txt` file from your computer
+* Click the `Upload` tab at the bottom of the page
 
-#### Uploading to S3
+
  
 
 

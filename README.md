@@ -28,9 +28,9 @@ The folder was developed by:
 * Clicking on the `Add File` tab
 * Selecting `Create New File`
 * In the top section there is a place to `Name Your File`
-** Type a new folder name (for this project it was `Mapper-ReducerCoder`
-** Then type `/`
-** Then enter the name of the python code (`length_mapper.py`) and enter python code (***copied from code obtained in text***)
+  * Type a new folder name (for this project it was `Mapper-ReducerCoder`
+  * Then type `/`
+  * Then enter the name of the python code (`length_mapper.py`) and enter python code (***copied from code obtained in text***)
 
 You can then add the `length_reducer.py` file into the same folder by:
 * Going into the `Mapper-ReducerCode` folder

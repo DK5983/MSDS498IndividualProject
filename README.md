@@ -10,8 +10,6 @@ In the sixteenth chapter of the textbook *Python for Programmers*, the authors w
 The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513** <br />
 #### Uploading to GitHub
 In your GitHub repository, select `Add file` and then `Upload file` to add the .txt to it.
-#### Uploading to S3
-For this project you will be creating three S3 buckets.  The first will hold the `RomeoAndJuliet.txt`.  
 ##### *Creating A Bucket*
 From your AWS Management Console select `S3` from the services. <br /><br />
 In **S3** select the `Create Bucket` tab and do the following: <br />
@@ -19,6 +17,9 @@ In **S3** select the `Create Bucket` tab and do the following: <br />
 * **Region:** Select region that is closest to you
 * **All other fields:** Keep default
 * Select the `Create Bucket` tab at the bottom of the page.
+#### Uploading to S3
+For this project you will be creating three S3 buckets.  The first will hold the `RomeoAndJuliet.txt`.  
+
 
 
 ## Mapper Code

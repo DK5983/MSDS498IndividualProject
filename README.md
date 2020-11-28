@@ -95,7 +95,15 @@ To create the cluster:
     * **Logging:** Keep the logging box checked and the default S3 bucket as-is
     * **Launch Mode:** Keep default (you could add a step directly to the cluster by selecting `Step execution` but for this project, we will be doing the step after the cluster has been created 
   * In the **Software Configuration** section
-    * **Release:** Keepthe default release version
+    * **Release:** Keep the default release version
     * **Applications:** Keep default: Core Hadoop
-     
+  * In the **Hardware Configuration** section
+    * **Instance type:** Keep default (this is a small project and does not require anything more than the default)
+    * **Number of instances:** Keep default as 3 (1 master and 2 core nodes).  This project does not require anything more than that.
+    * **Cluster scaling:** Keep unchecked
+   * In the **Security and Access** section
+     * **EC2 key pair:** Select the key pair you created from the drop-down menu
+     * **Permissions:** Keep as default
+    * Click the `Create cluster` button
+    
   

@@ -73,4 +73,16 @@ After the bucket is created complete the following:
 The final bucket you create should be named in a way that it identifies you will have the output files in it. ***mine was named `outputformapreduce`*** <br /><br />
 Unlike the previous two buckets, this bucket will not intitally have any files in it.
 
-
+## Configuring the Cluster
+### Part 1: Create Key Value Pair
+In order to authenticate to Amazon EMR cluster you will need specify the "Amazon EC2 key pair that will be used for SSH connections to all cluster instances" (***https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-access-ssh.html***).  This is a very easy process. <br /><br />
+To create a key pair:
+* From your AWS Management Console select `EC2` from the services. 
+* In **EC2** select the item that says `Key pairs`
+* Click on the `Creat key pair` button
+  * **Name:** Give your key pair a name that is is for you to identify
+  * **File format:** I selected pem to use with OpenSSH, but this is not mandatory for the project
+  * **All other fields:** Keep default
+  * Click the `Create key pair` button at the bottom of the page.
+  
+  

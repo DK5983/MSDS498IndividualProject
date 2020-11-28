@@ -15,6 +15,32 @@ The Romeo and Juliet text can be downloaded from this website: https://www.guten
 
 The two python files were originally downloaded using the examples in the ***Python for Programmers*** text (they are both in this repository)
 
+## Uploading Files to GitHub
+The `RomeoAndJuliet.txt` was uploaded directly into the repository. <br />
+This was accomplished by: 
+* Clicking on the `Add File` tab
+* Selecting `Upload Files`
+* Choosing the file from your local computer
+* Clicking on the `Commit Changes` button at the bottom of the page
+
+The two python files were placed into the ***Mapper-ReducerCode*** folder. <br />
+The folder was developed by:
+* Clicking on the `Add File` tab
+* Selecting `Create New File`
+* In the top section there is a place to `Name Your File`
+** Type a new folder name (for this project it was `Mapper-ReducerCoder`
+** Then type `/`
+** Then enter the name of the python code (`length_mapper.py`) and enter python code (***copied from code obtained in text***)
+
+You can then add the `length_reducer.py` file into the same folder by:
+* Going into the `Mapper-ReducerCode` folder
+* Clicking on the `Add File` tab
+* Selecting `Upload Files`
+* Choosing the reducer file from your local computer
+* Clicking on the `Commit Changes` button at the bottom of the page
+
+
+
 
 ## Uploading Files into GitHub & AWS S3
 ### Romeo and Juliet Text

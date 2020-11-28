@@ -11,7 +11,7 @@ The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this web
 #### Uploading to GitHub
 In your GitHub repository, select `Add file` and then `Upload file` to add the .txt to it.
 ##### *Creating A Bucket*
-For this project you will be creating three S3 buckets.  The first will hold the `RomeoAndJuliet.txt`. <br />
+For this project you will be creating ***three*** S3 buckets.  The first will hold the `RomeoAndJuliet.txt`. <br />
 
 From your AWS Management Console select `S3` from the services. <br /><br />
 In **S3** select the `Create Bucket` tab and do the following: <br />

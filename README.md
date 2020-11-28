@@ -18,7 +18,7 @@ The two python files were originally downloaded using the examples in the ***Pyt
 
 ## Uploading Files into GitHub & AWS S3
 ### Romeo and Juliet Text
-The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513** <br />
+The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513**<br />
 #### Uploading to GitHub
 In your GitHub repository, select `Add file` and then `Upload file` to add the .txt to it.
 

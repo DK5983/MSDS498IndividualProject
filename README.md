@@ -39,25 +39,20 @@ You can then add the `length_reducer.py` file into the same folder by:
 * Choosing the reducer file from your local computer
 * Clicking on the `Commit Changes` button at the bottom of the page
 
+## Uploading Files into AWS S3
+
+### *Creating A Bucket*
+For this project you will be creating ***three*** S3 buckets.  The first of which will hold the `RomeoAndJuliet.txt`. <br /><br />
+
+To create an AWS S3 bucket complete the following:
+* From your AWS Management Console select `S3` from the services. 
+* In **S3** select the `Create Bucket` tab
+  * **Name:** Give your bucket a unique name with lowercase letters and no spaces (you can use numbers)
+  * **Region:** Select region that is closest to you
+  * **All other fields:** Keep default
+  * Select the `Create Bucket` tab at the bottom of the page.
 
 
-
-## Uploading Files into GitHub & AWS S3
-### Romeo and Juliet Text
-The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513**<br />
-#### Uploading to GitHub
-In your GitHub repository, select `Add file` and then `Upload file` to add the .txt to it.
-
-## Uploading Files into GitHub & AWS S3
-##### *Creating A Bucket*
-For this project you will be creating ***three*** S3 buckets.  The first will hold the `RomeoAndJuliet.txt`. <br />
-
-From your AWS Management Console select `S3` from the services. <br /><br />
-In **S3** select the `Create Bucket` tab and do the following: <br />
-* **Name:** Give your bucket a unique name with lowercase letters and no spaces (you can use numbers)
-* **Region:** Select region that is closest to you
-* **All other fields:** Keep default
-* Select the `Create Bucket` tab at the bottom of the page.
 #### Uploading to S3
  
 

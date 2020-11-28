@@ -5,11 +5,23 @@
 In the sixteenth chapter of the textbook *Python for Programmers*, the authors walk you through a number of exercises pertaining to Big Data utilizing Hadoop, Spark, NoSQL and IoT (**https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml**).  In section 16.5 the exercise was to configure and run a MapReduce Cluster in Azure that could identify the length of each word in a text and count how many words had each length.  For this project, I wanted to get the same end result, but use a different cloud-based platform.  I chose **Amazon Web Services (AWS)** for this project utilizing their **Elastic Map Reduce (EMR)** program.  This README will walk you through the entire process including introducing the architecture of the project, uploading the documents into *GitHub* and *AWS*, configuirng the EMR cluster, adding the Mapper/Reducer step to run the cluster and obtaining the readable output.  <br /><br />
 *This repository contains the source code and information pertaining to the project which was initially downloaded from the **Python for Programmers** text*
 
+## Files
+This project requires ***three*** files:
+* Romeo and Juliet text file `RomeoAndJuliet.txt`
+* Mapper python file `length_mapper.py`
+* Reducer python file `length_reducer.py`
+<br />
+The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513** and is in this repository<br />
+The two python files were originally downloaded using the examples in the ***Python for Programmers*** text and are in this repository
+
+
 ## Uploading Files into GitHub & AWS S3
 ### Romeo and Juliet Text
 The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: **https://www.gutenberg.org/ebooks/1513** <br />
 #### Uploading to GitHub
 In your GitHub repository, select `Add file` and then `Upload file` to add the .txt to it.
+
+## Uploading Files into GitHub & AWS S3
 ##### *Creating A Bucket*
 For this project you will be creating ***three*** S3 buckets.  The first will hold the `RomeoAndJuliet.txt`. <br />
 

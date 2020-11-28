@@ -42,7 +42,7 @@ You can then add the `length_reducer.py` file into the same folder by:
 ## Uploading Files into AWS S3
 
 ### *Creating A Bucket*
-For this project you will be creating ***three*** S3 buckets.  The first of which will hold the `RomeoAndJuliet.txt`. <br /><br />
+For this project you will be creating ***three*** S3 buckets.  The first two of which will hold the ***Romeo and Juliet text*** and the ***Mapper and Reducer Python files***. <br /><br />
 
 To create an AWS S3 bucket complete the following:
 * From your AWS Management Console select `S3` from the services. 

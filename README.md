@@ -11,7 +11,7 @@ This project requires ***three*** files:
 * Mapper python file `length_mapper.py`
 * Reducer python file `length_reducer.py`
 <br />
-The Romeo and Juliet text (`RomeoAndJuliet.txt`) can be downloaded from this website: https://www.gutenberg.org/ebooks/1513 (it is also in this repository)<br /><br />
+The Romeo and Juliet text can be downloaded from this website: https://www.gutenberg.org/ebooks/1513 (it is also in this repository)<br /><br />
 
 The two python files were originally downloaded using the examples in the ***Python for Programmers*** text (they are both in this repository)
 

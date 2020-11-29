@@ -105,5 +105,20 @@ To create the cluster:
      * **EC2 key pair:** Select the key pair you created from the drop-down menu
      * **Permissions:** Keep as default
  * Click the `Create cluster` button
+ 
+ ### Part 3: Security
+ The cluster will take a few minutes to get up and running.  After it is ready to use, you have the ability to adjust security settings.  This is done by completing the following steps:
+ * Click on your new cluster.  This will bring you to a face page that provides information about that specific cluster.
+ * At the bottom portion of that page there is a section called `Security and access`
+ * Click on the link for the ***Security groups for Master***
+ * Select the Master Security Group ID.  This will bring you to a page where you can see the Inbound rules, Outbound rules and Tags.
+ * Click on the `Edit inbound rules` button in the right corner.
+   * Scan the inbound rules to see ***if*** there is any rule type **SSH** with port range of **22**
+     * If there is **delete** that rule.
+   * Click the `Add Rule` button at bottom of page
+     * **Type:** select **SSH**
+     * **Port Range:** select **My IP**
+     * All other fields will be automatially filled in
+   * Save the new rule and complete the same steps for the Slave Group ID
     
   

@@ -135,6 +135,7 @@ To create the cluster:
      * **Arguments:** leave blank
      * **Action on failute:** Keep as `Continue`
      * Select the `Add` button
+   
    Once you select `Add` the cluster will begin working through the step!
   
     

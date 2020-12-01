@@ -147,7 +147,7 @@ To create the cluster:
   * There should be 3 "part" files (part-00000, part-00001 and part-00002)
     * The three files are from the 3 nodes that worked on the project and each have a portion of the output
   * Select each file and click on the `Actions` tab
-  * Select `Download` from the tab and save it to a local folder with a ***.txt.*** extension
+  * Select `Download` from the tab and save it to a local folder with a ***.txt*** extension
   
     
   

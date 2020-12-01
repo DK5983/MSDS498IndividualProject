@@ -138,5 +138,16 @@ To create the cluster:
    
    Once you select `Add` the cluster will begin working through the step!
   
+  ## Retrieving the Ouput
+  ### Part 1: Downloading Files to Local Drive
+  Once the step has completed (hopefully with no errors), your out material will be automatically sent to the S3 output bucket you created and will be inside the output file you identified in the step.  To retrieve the files:
+  * Log into **S3**
+  * Go into the output bucket you created (for my example it was: `outputformapreduce`)
+  * Go into the folders you designated the output files to go into
+  * There should be 3 "part" files (part-00000, part-00001 and part-00002)
+    * The three files are from the 3 nodes that worked on the project and each have a portion of the output
+  * Select each file and click on the `Actions` tab
+  * Select `Download` from the tab and save it to a local folder with a ***.txt.*** extension
+  
     
   

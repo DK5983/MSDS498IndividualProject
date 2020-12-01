@@ -120,5 +120,22 @@ To create the cluster:
      * **Port Range:** select **My IP**
      * All other fields will be automatially filled in
    * Save the new rule and complete the same steps for the Slave Group ID
+   
+   ## Adding a Step
+    Now that the cluster is up and running, the MapReduce step needs to be ran through the cluster.  To provde the cluster with the necessary .txt and .py files the following should be done:
+   * Within your cluster, select the `Step` tab
+   * Click on the `Add step` button
+   * An window will pop up asking for specific information:
+     * **Step type:** Select `Streaming program` from the dropdown menu
+     * **Name:** Give this step a name that indicates what the step is doing
+     * **Mapper:** Select the S3 bucket and file that contains your `length_mapper.py`
+     * **Reducer:** Select the S3 bucket and file that contains your `length_reducer.py`
+     * **Input S3 location:** Select the S3 bucket and file that contains the `RomeoAndJuliet.txt` file
+     * **Output S3 location:** Select the S3 bucket that you set up for output and then add a ***new*** file name for that specific output
+     * **Arguments:** leave blank
+     * **Action on failute:** Keep as `Continue`
+     * Select the `Add` button
+   Once you select `Add` the cluster will begin working through the step!
+  
     
   

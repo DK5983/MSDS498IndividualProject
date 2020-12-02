@@ -152,7 +152,7 @@ To create the cluster:
   ### Part 2: Merging and Sorting Files via Command Line
   Now that you have the `.txt` files on your local computer, you will want to get the data sorted so it is readable and in one file.  To do this you will need to open the command prompt within the folder that your `.txt` files are located.  <br/><br />
   
-  Once in the command prompt type: ***Get-Content *.txt | Sort-Object { [double]$_.split()[-0] } | Set-Content sortedfile.txt*** <br /><br />
+  Once in the command prompt type: ***Get-Content * .txt | Sort-Object { [double]$_.split()[-0] } | Set-Content sortedfile.txt*** <br /><br />
   
   * The `Get-Content` command retrieves all files in the folder with a ***.txt*** extension
   * The `Sort-Object` command sorts objects in all files by (in this case) the first column

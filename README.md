@@ -118,7 +118,7 @@ To create the cluster:
    * Click the `Add Rule` button at bottom of page
      * **Type:** select **SSH**
      * **Port Range:** select **My IP**
-     * All other fields will be automatially filled in
+     * All other fields will be automatically filled in
    * Save the new rule and complete the same steps for the Slave Group ID
    
    ## Adding a Step

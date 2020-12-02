@@ -140,7 +140,7 @@ To create the cluster:
   
   ## Retrieving the Ouput
   ### Part 1: Downloading Files to Local Drive
-  Once the step has completed (hopefully with no errors), your out material will be automatically sent to the S3 output bucket you created and will be inside the output file you identified in the step.  To retrieve the files:
+  Once the step has completed (hopefully with no errors), your output material will be automatically sent to the S3 output bucket you created and will be inside the output file you identified in the step.  To retrieve the files:
   * Log into **S3**
   * Go into the output bucket you created (for my example it was: `outputformapreduce`)
   * Go into the folders you designated the output files to go into

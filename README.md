@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the sixteenth chapter of the textbook *Python for Programmers*, the authors walk you through a number of exercises pertaining to Big Data utilizing Hadoop, Spark, NoSQL and IoT (**https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml**).  In section 16.5 the exercise was to configure and run a MapReduce Cluster in Azure that could identify the length of each word in a text and count how many words had each length.  For this project, I wanted to get the same end result, but use a different cloud-based platform.  I chose **Amazon Web Services (AWS)** for this project utilizing their **Elastic Map Reduce (EMR)** program.  This README will walk you through the entire process including introducing the architecture of the project, uploading the documents into *GitHub* and *AWS*, configuirng the EMR cluster, adding the Mapper/Reducer step to run the cluster and obtaining the readable output.  <br /><br />
+In the sixteenth chapter of the textbook *Python for Programmers*, the authors walk you through a number of exercises pertaining to Big Data utilizing Hadoop, Spark, NoSQL and IoT (**https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml**).  In section 16.5 the exercise was to configure and run a MapReduce Cluster in Azure that could identify the length of each word in a text and count how many words had each length.  For this project, I wanted to get the same end result, but use a different cloud-based platform.  I chose **Amazon Web Services (AWS)** for this project utilizing their **Elastic Map Reduce (EMR)** program.  This README will walk you through the entire process including introducing the architecture of the project, uploading the documents into *GitHub* and *AWS*, configuring the EMR cluster, adding the Mapper/Reducer step to run the cluster and obtaining the readable output.  <br /><br />
 *This repository contains the source code and information pertaining to the project which was initially downloaded from the **Python for Programmers** text*
 
 ## Files
@@ -71,7 +71,7 @@ After the bucket is created complete the following:
 
 ### Setting Up the Output Bucket
 The final bucket you create should be named in a way that it identifies you will have the output files in it. ***mine was named `outputformapreduce`*** <br /><br />
-Unlike the previous two buckets, this bucket will not intitally have any files in it.
+Unlike the previous two buckets, this bucket will not initially have any files in it.
 
 ## Configuring the Cluster
 ### Part 1: Create Key Pair
@@ -79,7 +79,7 @@ In order to authenticate to Amazon EMR cluster you will need specify the "Amazon
 To create a key pair:
 * From your AWS Management Console select `EC2` from the services. 
 * In **EC2** select the item that says `Key pairs`
-* Click on the `Creat key pair` button
+* Click on the `Create key pair` button
   * **Name:** Give your key pair a name that is easy for you to identify
   * **File format:** I selected pem to use with OpenSSH, but this is not mandatory for the project
   * **All other fields:** Keep default
@@ -122,7 +122,7 @@ To create the cluster:
    * Save the new rule and complete the same steps for the Slave Group ID
    
    ## Adding a Step
-    Now that the cluster is up and running, the MapReduce step needs to be ran through the cluster.  To provde the cluster with the necessary .txt and .py files the following should be done:
+    Now that the cluster is up and running, the MapReduce step needs to be ran through the cluster.  To provide the cluster with the necessary .txt and .py files the following should be done:
    * Within your cluster, select the `Step` tab
    * Click on the `Add step` button
    * An window will pop up asking for specific information:
@@ -133,12 +133,12 @@ To create the cluster:
      * **Input S3 location:** Select the S3 bucket and file that contains the `RomeoAndJuliet.txt` file
      * **Output S3 location:** Select the S3 bucket that you set up for output and then add a ***new*** file name for that specific output
      * **Arguments:** leave blank
-     * **Action on failute:** Keep as `Continue`
+     * **Action on failure:** Keep as `Continue`
      * Select the `Add` button
    
    Once you select `Add` the cluster will begin working through the step!
   
-  ## Retrieving the Ouput
+  ## Retrieving the Output
   ### Part 1: Downloading Files to Local Drive
   Once the step has completed (hopefully with no errors), your output material will be automatically sent to the S3 output bucket you created and will be inside the output file you identified in the step.  To retrieve the files:
   * Log into **S3**
